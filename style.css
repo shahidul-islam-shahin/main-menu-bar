@@ -1,0 +1,80 @@
+.mainmenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+
+.mainmenu li {
+    display: inline-block;
+}
+
+.mainmenu li a {
+    display: block;
+    padding: 33px;
+    padding-right: 0;
+    padding-left: 100px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    transition: .2s;
+}
+
+.mainmenu li a:hover {
+    color: #e3aa34;
+}
+
+.single-slide-item {
+    background-color: #263238;
+    color: #fff;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.single-slide-item h2 {
+    color: #e3aa34;
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.single-slide-item img {
+    position: absolute;
+    right: -120px;
+    bottom: -22px;
+}
+
+.slide-text {
+    padding-top: 200px;
+    padding-bottom: 150px;
+}
+
+.single-slide-item .row {
+    position: relative;
+}
+
+.header-area {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 20px 0;
+    z-index: 9;
+}
+
+.logo img {
+    max-height: 100px;
+}
+
+.bordered-btn {
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    color: #e3aa34;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.bordered-btn .fa-solid {
+    margin-left: 10px;
+}
